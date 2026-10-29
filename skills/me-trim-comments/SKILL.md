@@ -3,9 +3,11 @@ name: me-trim-comments
 description: Trim and sharpen code comments, test names, and documentation in unstaged changes. Use when asked to tidy comments or documentation, remove redundant explanations, or clarify edge cases with concise examples.
 ---
 
-Unless otherwise specified, take the following action only on changes that are unstaged, NOT existing parts of files.
+## Scope
 
-# Trim Comments
+Unless the user specifies otherwise, trim only unstaged changes.
+
+## Comments
 
 Comments in code are for humans first. Read the comments and imagine what an unfamiliar human would think.
 Respect the reader's time and attention. Readers are intelligent but busy. Comments should be concise, clear, and relevant.
