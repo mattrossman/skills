@@ -22,4 +22,4 @@ description: Draft a concise, evidence-backed Linear issue for review before cre
 - Use short paragraphs for the problem, why it matters and the proposed fix. Default to about three sentences for a small issue.
 - Link claims to evidence. Pin code links to a revision and verify they show the relevant lines.
 - Include a small, labeled example or file tree when it makes the proposed change clearer.
-- Propose team, status, priority, assignee, labels, project and relations where applicable. Do not guess unavailable workspace details.
+- End every draft with a metadata table proposing relevant fields (e.g. team, status, priority, assignee, labels, project and relations in Linear). Do not guess unavailable workspace details.

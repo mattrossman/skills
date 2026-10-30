@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-30
+
+### Format metadata as a table
+
+End each draft with a metadata table. Without an explicit format, drafts on another machine presented the metadata differently.
+
 ## 2026-10-29
 
 ### Use the conversation as context
