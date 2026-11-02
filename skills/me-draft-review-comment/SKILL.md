@@ -18,6 +18,8 @@ Draft only the requested findings. Never post a comment without explicit authori
 3. For an inline comment, choose a line shown in the PR diff where the fix belongs. Verify its line number against the PR head, not the local working tree. Link the nearest shown line and say so if the exact line is outside the diff.
 4. Give the link and a concise draft in a fenced block. For a non-inline note, give the draft without a diff-line link.
 
+For GitHub, a diff anchor uses the SHA-256 of the repository-relative path: `#diff-<hash>R<line>` for the new side or `L<line>` for the old side. Compute the hash with `printf %s "$path" | shasum -a 256` and verify the chosen line is in the displayed diff.
+
 ## Writing
 
 State the problem, impact or request plainly. Give a concrete user scenario and suggest a fix when useful. Cite evidence for factual claims and mark unverified assumptions. Keep comments short and avoid repetitive openings.

@@ -16,8 +16,12 @@ description: Create or improve a reusable skill, preserving the reasons behind e
 
 ## Tune
 
-1. Read the skill and its changelog if present. Find the evidence behind the requested change, including the user's edits or feedback.
+1. Inspect the installed skill path and resolve symlinks to find its maintained source. Edit that source rather than creating another copy. Read the skill and its changelog if present. Find the evidence behind the requested change, including the user's edits or feedback.
 2. Check whether the change reverses a recorded decision. If so, explain the original rationale and whether its revisit condition is met. Ask before reversing it unless the user has already authorized the reversal.
 3. Generalize the evidence into instructions that address the underlying issue. Keep rationale in the changelog.
 4. Add a changelog entry for the substantive change, including what changed, why, and evidence where available. Do not invent missing rationale.
 5. Report what changed and show the diff.
+
+## Migrate
+
+Compare the installed skill with any existing repo version, including supporting files and changelog. Preserve useful behavior and decision history while keeping personal settings in the user's configuration. Before replacing an installed directory, archive the complete original outside skill discovery and verify the backup. With authorization, link the installed path to the repo source, preserve working agent links, and verify each link and fresh-session discovery. Restore the original if the swap fails.

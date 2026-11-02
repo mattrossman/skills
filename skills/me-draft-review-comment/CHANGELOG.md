@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-02
+
+### Restore GitHub diff anchors
+
+Document how to construct and verify a GitHub diff-line link when a direct link is needed.
+
 ## 2026-10-29
 
 ### Ground review comments in practical impact

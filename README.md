@@ -6,6 +6,7 @@
 - [/me-draft-review-comment](skills/me-draft-review-comment/SKILL.md): Draft a review comment and identify its PR diff line.
 - [/me-draft-pr](skills/me-draft-pr/SKILL.md): Draft a pull request title and description for review.
 - [/me-dry-run](skills/me-dry-run/SKILL.md): See how an agent approaches a request before tuning its skills, instructions or tools.
+- [/me-obsidian](skills/me-obsidian/SKILL.md): Read, write, and link notes using your Obsidian vault conventions.
 - [/me-second-opinion](skills/me-second-opinion/SKILL.md): Get an independent assessment from another coding agent.
 - [/me-skill](skills/me-skill/SKILL.md): Create or improve a reusable skill.
 - [/me-trim-comments](skills/me-trim-comments/SKILL.md): Trim comments, test names, and documentation in unstaged changes.
@@ -29,6 +30,8 @@ ln -s ~/.agents/skills/me-trim-comments ~/.claude/skills/me-trim-comments
 ```
 
 Repeat the links for the skills you want to develop. Check for existing skills before replacing them. Edits through either agent's skill path will update the checkout.
+
+For an existing personal skill, follow the backup, migration, and verification steps in [CONTRIBUTING.md](CONTRIBUTING.md#migrating-an-installed-skill).
 
 ## Prerequisites
 

@@ -2,6 +2,14 @@
 
 ## 2026-11-02
 
+### Document migration and source discovery
+
+Resolve installed links before editing and back up a complete personal skill before replacing it with a repo link. Verify discovery so the maintained source is also the active one.
+
+### Edit the maintained source
+
+Find the maintained source before tuning an installed skill so changes do not create a separate drifting copy.
+
 ### Respect the destination's changelog convention
 
 Follow the destination's contribution instructions when they exist, including its changelog policy. Default to recording substantive changes when there is no convention. This keeps the skill usable outside this repository.

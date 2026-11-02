@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-02
+
+### Follow configured draft conventions
+
+Use the user's existing draft destination instead of asking for a folder already configured elsewhere.
+
 ## 2026-10-30
 
 ### Format metadata as a table
