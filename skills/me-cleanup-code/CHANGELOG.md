@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-02
+
+### Recommend the second opinion skill
+
+Use the reusable second opinion workflow when available while keeping direct independent review as a fallback.
+
 ## 2026-10-29
 
 ### Use a different agent for review

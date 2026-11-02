@@ -14,14 +14,14 @@ SKILL.md
   ## Dependencies  # tools, access, and what to do if unavailable
   ## Workflow      # steps using conversation or referenced sources
 
-CHANGELOG.md
+CHANGELOG.md       # add when the skill first changes substantively
   ## YYYY-MM-DD    # newest first; group changes by date
   ### <change>     # what changed, why, and behavior to preserve
 ```
 
 Use headings that describe their contents: `Workflow` for ordered steps, `Rules` for constraints, or a specific topic such as `Comments`. The diagram shows useful sections, not a required template; omit sections a skill does not need. Headings organize instructions rather than enforcing them.
 
-Before editing a skill, read its changelog and check that the new instructions still address the recorded problems. Add an entry for substantive changes, with a concrete example when helpful. Correct old entries with a new entry. Keep skills portable: describe the behavior, use the user’s existing preferences for paths and services, and avoid personal names, machine-specific paths and organization-specific assumptions.
+Before editing a skill, read its changelog if present and check that the new instructions still address the recorded problems. Create a changelog for the first substantive change, and add an entry with a concrete example when helpful. An initial creation entry is unnecessary. Correct old entries with a new entry. Keep skills portable: describe the behavior, use the user’s existing preferences for paths and services, and avoid personal names, machine-specific paths and organization-specific assumptions.
 
 ## Dependencies
 

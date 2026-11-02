@@ -11,6 +11,7 @@ Work on staged, unstaged and untracked changes. Never stage, commit or push.
 
 - Git and the project's tools for verifying changes.
 - An independent reviewer: Claude Code when the host is Codex, or Codex when the host is Claude Code. If the reviewer is unavailable or cannot authenticate, report it and stop. For another host, ask which reviewer to use.
+- `me-second-opinion` is recommended for consulting the reviewer. If unavailable, ask the reviewer directly using the workflow below.
 - `me-trim-comments` is recommended. If unavailable, trim redundant or stale comments, test names and documentation in the changes.
 
 ## Workflow
