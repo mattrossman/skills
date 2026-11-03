@@ -1,6 +1,16 @@
 # Changelog
 
+## 2026-11-03
+
+### Consolidate repeated review pings
+
+Match the underlying review across different message URLs and channels. Keep one queue entry with its existing next action and priority, plus dated source links and the people waiting on each follow-up. A repeated ping for an already queued PR should refresh its follow-up history rather than create another task. Matt explicitly requested both logical deduplication and a record of where to respond.
+
 ## 2026-11-02
+
+### Keep reviews in a persistent queue
+
+Use a mutable root-level Review Queue.md for pending reviews and follow-ups, with outcomes preserved in dated daily notes. Matt wants reviews to survive missed reminders without losing daily history. Reuse the existing queue and retain unverified entries until checked.
 
 ### Document daily note plugins
 
