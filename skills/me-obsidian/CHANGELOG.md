@@ -8,6 +8,10 @@ Match the underlying review across different message URLs and channels. Keep one
 
 ## 2026-11-02
 
+### Edit Obsidian configuration headlessly
+
+Use the vault's .obsidian files for settings and hotkeys, preserve unrelated configuration, and report reload requirements without taking over the app. The user found computer-use setup disruptive and explicitly requested direct file edits. UI interaction requires an explicit request.
+
 ### Keep reviews in a persistent queue
 
 Use a mutable root-level Review Queue.md for pending reviews and follow-ups, with outcomes preserved in dated daily notes. Matt wants reviews to survive missed reminders without losing daily history. Reuse the existing queue and retain unverified entries until checked.

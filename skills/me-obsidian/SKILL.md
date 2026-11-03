@@ -1,6 +1,6 @@
 ---
 name: me-obsidian
-description: Read and write Obsidian notes, organizing daily work and drafts in a numbered sequence.
+description: Read and write Obsidian notes, organize daily work and drafts, and change Obsidian configuration headlessly.
 ---
 
 ## Dependencies
@@ -10,6 +10,12 @@ description: Read and write Obsidian notes, organizing daily work and drafts in 
 - Recommended Obsidian plugins: **Periodic Notes**, configured with daily folder `Daily Notes` and format `YYYY/MM/YYYY-MM-DD/YYYY-MM-DD`, and **Folder notes**, configured to use a same-named Markdown note inside the folder. These make daily notes easy to create and navigate in Obsidian. The agent can still read and write the files without them.
 - **Calendar** is optional for navigating daily notes by date.
 - Sidemark is optional. It is only needed when working with Sidemark comments.
+
+## Obsidian configuration
+
+- Change settings headlessly by editing files in the vault's `.obsidian/` directory. Do not take over the Obsidian UI unless the user explicitly requests it.
+- Inspect existing configuration first: `hotkeys.json` holds keyboard bindings, `community-plugins.json` lists enabled plugins, and `plugins/<plugin-id>/data.json` holds plugin settings. Preserve unrelated settings and check hotkeys against both custom bindings and command defaults.
+- Read back edited files and validate their JSON. Distinguish saved configuration from changes confirmed active in the running app. If a reload or restart is needed, tell the user instead of initiating it through computer use.
 
 ## Daily notes and work items
 
