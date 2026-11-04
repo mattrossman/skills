@@ -1,12 +1,12 @@
 ---
 name: me-draft-issue
-description: Draft a concise, evidence-backed Linear issue for review before creating it.
+description: Draft a concise, evidence-backed issue for review before creating it.
 ---
 
 ## Dependencies
 
 - Access to the user's configured draft destination. If no destination is configured, ask where to save it. If unavailable, offer a draft in chat instead.
-- Linear access to inspect or create an issue. If unavailable, explain what access is needed and continue drafting from available evidence.
+- Access to the project’s issue tracker to inspect or create an issue. If unavailable, explain what access is needed and continue drafting from available evidence.
 - Access to referenced sources for evidence. Do not assume their contents if access fails.
 
 ## Workflow
@@ -15,6 +15,7 @@ description: Draft a concise, evidence-backed Linear issue for review before cre
 2. Save a new draft using the user's configured draft conventions, or draft in chat if requested. Include the title, body and proposed metadata. If a draft already exists, read it before making targeted edits; never overwrite unseen changes.
 3. Show the draft for review. Do not create the issue until explicitly approved. Re-read the saved draft and confirm metadata before creating it.
 4. Before acting on an existing issue, read its current state. Apply follow-up edits narrowly.
+5. For GitHub attachments, check `gh issue create --help` or `gh issue edit --help` for `--attach`. Preserve placement, verify the published body and report upload failures.
 
 ## Writing
 
@@ -22,4 +23,4 @@ description: Draft a concise, evidence-backed Linear issue for review before cre
 - Use short paragraphs for the problem, why it matters and the proposed fix. Default to about three sentences for a small issue.
 - Link claims to evidence. Pin code links to a revision and verify they show the relevant lines.
 - Include a small, labeled example or file tree when it makes the proposed change clearer.
-- End every draft with a metadata table proposing relevant fields (e.g. team, status, priority, assignee, labels, project and relations in Linear). Do not guess unavailable workspace details.
+- End every draft with a metadata table proposing relevant fields (e.g. team, status, priority, assignee, labels, project and relations in the issue tracker). Do not guess unavailable workspace details.

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-04
+
+### Preserve GitHub attachments when publishing
+
+Preserve draft attachments when publishing. A chart was omitted from an issue even though GitHub CLI supports [attachments](https://cli.github.com/manual/gh_issue_edit).
+
+Use the project’s configured issue tracker rather than assuming Linear, since repositories may use GitHub Issues.
+
 ## 2026-11-02
 
 ### Follow configured draft conventions

@@ -16,6 +16,7 @@ description: Draft a pull request title and description from the diff and suppor
 3. Save a new draft using the user's configured draft conventions, or draft in chat if requested, and show the title and body for review. If editing a draft, read it first and make targeted changes. When saved, the draft is the source of truth.
 4. Do not commit, push or create a PR without explicit authorization. Before creating one, re-read the draft and follow the repository's contribution instructions. Use a body file for multiline text.
 5. Before editing an existing PR, read its current body. Change only the intended text, check the result for unintended deletions and preserve any content added by others.
+6. For GitHub attachments, check `gh pr create --help` or `gh pr edit --help` for `--attach`. Preserve placement, verify the published body and report upload failures.
 
 ## Writing
 
