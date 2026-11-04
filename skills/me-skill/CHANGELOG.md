@@ -2,6 +2,10 @@
 
 ## 2026-11-04
 
+### Preserve working details when migrating
+
+Check that generalized instructions retain the concrete information needed to carry out the workflow. Removing a location without a usable replacement can make a migrated skill less functional.
+
 ### Generalize private context
 
 Keep the rationale for changes without exposing details of the work that prompted them. Examples and evidence can reveal private context even when names are omitted.

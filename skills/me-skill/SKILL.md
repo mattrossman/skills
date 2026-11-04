@@ -7,6 +7,10 @@ description: Create or improve a reusable skill, preserving the reasons behind e
 
 - Access to the skill files and any referenced evidence. Follow the destination repository's contribution instructions when present.
 
+## Generalizing
+
+Preserve concrete details needed for the workflow, or verify that the user's configuration supplies them. Do not remove a working step without an equivalent.
+
 ## Create
 
 1. Choose the skill's scope and destination from the user's request and existing conventions. Name the concrete action and match the frontmatter name to the directory.
