@@ -9,6 +9,7 @@
 - [/me-obsidian](skills/me-obsidian/SKILL.md): Read, write, and link notes using your Obsidian vault conventions.
 - [/me-second-opinion](skills/me-second-opinion/SKILL.md): Get an independent assessment from another coding agent.
 - [/me-skill](skills/me-skill/SKILL.md): Create or improve a reusable skill.
+- [/me-sync](skills/me-sync/SKILL.md): Sync the current repository while preserving local work.
 - [/me-trim-comments](skills/me-trim-comments/SKILL.md): Trim comments, test names, and documentation in unstaged changes.
 
 ## Install
