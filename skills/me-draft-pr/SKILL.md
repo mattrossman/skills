@@ -21,6 +21,7 @@ description: Draft a pull request title and description from the diff and suppor
 ## Writing
 
 - Follow the repository's title conventions and templates. Prefer a short description of the problem and resulting behavior.
+- Write the body as a description of what the PR changes, using present tense rather than imperative instructions.
 - Include what a reviewer cannot easily infer from the diff, such as motivation, tradeoffs and verification backed by accessible evidence.
 - Use headings, bullets or a small diagram only when they help a reviewer understand or compare changes. Include screenshots for visual changes when available.
 - Link claims to evidence and pin code links to a revision. Do not claim verification that has not happened.

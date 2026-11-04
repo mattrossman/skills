@@ -6,6 +6,12 @@
 
 Preserve draft attachments when publishing. A chart was omitted from an issue even though GitHub CLI supports [attachments](https://cli.github.com/manual/gh_issue_edit).
 
+## 2026-11-03
+
+### Describe the change
+
+Write PR bodies in present tense rather than as instructions, which can read like a request instead of a description of the change.
+
 ## 2026-11-02
 
 ### Follow configured draft conventions
