@@ -7,6 +7,7 @@
 - [/me-draft-pr](skills/me-draft-pr/SKILL.md): Draft a pull request title and description for review.
 - [/me-dry-run](skills/me-dry-run/SKILL.md): See how an agent approaches a request before tuning its skills, instructions or tools.
 - [/me-obsidian](skills/me-obsidian/SKILL.md): Read, write, and link notes using your Obsidian vault conventions.
+- [/me-remember](skills/me-remember/SKILL.md): Save knowledge to agent memory in the right scope.
 - [/me-second-opinion](skills/me-second-opinion/SKILL.md): Get an independent assessment from another coding agent.
 - [/me-skill](skills/me-skill/SKILL.md): Create or improve a reusable skill.
 - [/me-sync](skills/me-sync/SKILL.md): Sync the current repository while preserving local work.
