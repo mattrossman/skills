@@ -22,7 +22,7 @@ npx skills add mattrossman/skills
 Clone the repo, then link each skill into `~/.agents/skills/` and link that into `~/.claude/skills/`. For example:
 
 ```sh
-git clone https://github.com/mattrossman/skills.git
+gh repo clone mattrossman/skills
 cd skills
 mkdir -p ~/.agents/skills ~/.claude/skills
 ln -s "$PWD/skills/me-trim-comments" ~/.agents/skills/me-trim-comments
