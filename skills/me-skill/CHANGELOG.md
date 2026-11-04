@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-04
+
+### Generalize private context
+
+Keep the rationale for changes without exposing details of the work that prompted them. Examples and evidence can reveal private context even when names are omitted.
+
 ## 2026-11-02
 
 ### Document migration and source discovery
