@@ -10,7 +10,7 @@ mkdir -p "$agents_dir" "$claude_dir"
 
 ensure_link() {
   local target="$1" link="$2"
-  if [[ -L "$link" ]] && [[ "$(readlink "$link")" == "$target" ]]; then
+  if [[ -L "$link" && "$link" -ef "$target" ]]; then
     return
   fi
   if [[ -e "$link" || -L "$link" ]]; then
@@ -27,7 +27,7 @@ for skill in "$repo_dir"/skills/*; do
   name="$(basename "$skill")"
   agents_link="$agents_dir/$name"
   ensure_link "$skill" "$agents_link"
-  if [[ -L "$agents_link" ]] && [[ "$(readlink "$agents_link")" == "$skill" ]]; then
+  if [[ -L "$agents_link" && "$agents_link" -ef "$skill" ]]; then
     ensure_link "$agents_link" "$claude_dir/$name"
   fi
 done
