@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-04
+
+### Make review follow-ups actionable
+
+Put the request thread and who is waiting first, and name the action needed. Keep other response locations visible, including cross-posted requests, while separating supporting evidence and past status updates into context. This makes the request and where to respond easier to find.
+
 ## 2026-11-03
 
 ### Consolidate repeated review pings
