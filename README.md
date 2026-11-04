@@ -29,7 +29,11 @@ ln -s "$PWD/skills/me-trim-comments" ~/.agents/skills/me-trim-comments
 ln -s ~/.agents/skills/me-trim-comments ~/.claude/skills/me-trim-comments
 ```
 
-Repeat the links for the skills you want to develop. Check for existing skills before replacing them. Edits through either agent's skill path will update the checkout.
+To link all repo skills for Codex and Claude Code (or re-link after a pull), run:
+
+```sh
+./scripts/sync-skills.sh
+```
 
 For an existing personal skill, follow the backup, migration, and verification steps in [CONTRIBUTING.md](CONTRIBUTING.md#migrating-an-installed-skill).
 
