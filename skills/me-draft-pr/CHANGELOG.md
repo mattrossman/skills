@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-06
+
+### Lead with the change
+
+Make the opening identify the change and new behavior. A statement of capability can leave it unclear whether the behavior already existed.
+
 ## 2026-11-04
 
 ### Preserve GitHub attachments when publishing
