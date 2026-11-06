@@ -2,6 +2,10 @@
 
 ## 2026-11-06
 
+### Explain what changed
+
+Describe the change in behavior or workflow, not just the resulting code. Include the prior behavior when it makes the change clear. Present tense alone does not establish what changed.
+
 ### Lead with the change
 
 Make the opening identify the change and new behavior. A statement of capability can leave it unclear whether the behavior already existed.
