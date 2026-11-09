@@ -45,10 +45,4 @@ To link all repo skills for Codex and Claude Code (or re-link after a pull), run
 ./scripts/sync-skills.sh
 ```
 
-For an existing personal skill, follow the backup, migration, and verification steps in [CONTRIBUTING.md](CONTRIBUTING.md#migrating-an-installed-skill).
-
-## Prerequisites
-
-Each skill lists the tools and access it needs. The drafting skills use Git or Obsidian, with Linear and Git hosting access where relevant. If a dependency is unavailable, the skill explains what is needed and offers a fallback when possible.
-
 See [CONTRIBUTING.md](CONTRIBUTING.md) for maintenance guidance.
