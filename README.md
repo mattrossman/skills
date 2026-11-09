@@ -6,20 +6,33 @@ My workflow revolves around writing drafts that I can directly or indirectly ref
 
 In addition to the work itself, I also use skills for self-improvement to various layers "guidance" like local or shared memory files and skills.
 
-- [/me-catchup](skills/me-catchup/SKILL.md): Recap where a session left off using current work state.
-- [/me-cleanup-code](skills/me-cleanup-code/SKILL.md): Clean up and independently review uncommitted changes.
+## Skills
+
+### Draft
+
+- [/me-draft-issue](skills/me-draft-issue/SKILL.md): Draft an evidence-backed issue for review.
 - [/me-draft-change](skills/me-draft-change/SKILL.md): Implement a plan as uncommitted local changes.
-- [/me-draft-issue](skills/me-draft-issue/SKILL.md): Draft an evidence-backed Linear issue for review.
-- [/me-draft-review-comment](skills/me-draft-review-comment/SKILL.md): Draft a review comment and identify its PR diff line.
 - [/me-draft-pr](skills/me-draft-pr/SKILL.md): Draft a pull request title and description for review.
-- [/me-dry-run](skills/me-dry-run/SKILL.md): See how an agent approaches a request before tuning its skills, instructions or tools.
-- [/me-obsidian](skills/me-obsidian/SKILL.md): Read, write, and link notes using your Obsidian vault conventions.
-- [/me-prepare-commits](skills/me-prepare-commits/SKILL.md): Prepare local changes for commits and push them after approval.
-- [/me-remember](skills/me-remember/SKILL.md): Save knowledge to agent memory in the right scope.
+- [/me-draft-review-comment](skills/me-draft-review-comment/SKILL.md): Draft a review comment and identify its PR diff line.
+
+### Review and refine
+
+- [/me-cleanup-code](skills/me-cleanup-code/SKILL.md): Clean up and independently review uncommitted changes.
 - [/me-second-opinion](skills/me-second-opinion/SKILL.md): Get an independent assessment from another coding agent.
-- [/me-skill](skills/me-skill/SKILL.md): Create or improve a reusable skill.
-- [/me-sync](skills/me-sync/SKILL.md): Sync the current repository while preserving local work.
 - [/me-trim-comments](skills/me-trim-comments/SKILL.md): Trim comments, test names, and documentation in unstaged changes.
+- [/me-prepare-commits](skills/me-prepare-commits/SKILL.md): Prepare local changes for commits and push them after approval.
+
+### Workflow
+
+- [/me-catchup](skills/me-catchup/SKILL.md): Recap where a session left off using current work state.
+- [/me-obsidian](skills/me-obsidian/SKILL.md): Read, write, and link notes using your Obsidian vault conventions.
+- [/me-sync](skills/me-sync/SKILL.md): Sync the current repository while preserving local work.
+
+### Agent guidance
+
+- [/me-dry-run](skills/me-dry-run/SKILL.md): See how an agent approaches a request before tuning its skills, instructions or tools.
+- [/me-remember](skills/me-remember/SKILL.md): Save knowledge to agent memory in the right scope.
+- [/me-skill](skills/me-skill/SKILL.md): Create or improve a reusable skill.
 
 ## Install
 
