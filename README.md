@@ -1,5 +1,8 @@
 # Skills
 
+A collection of [agent skills](https://agentskills.io/home) I use to speed up common workflows and improve the output of agents.
+
+- [/me-catchup](skills/me-catchup/SKILL.md): Recap where a session left off using current work state.
 - [/me-cleanup-code](skills/me-cleanup-code/SKILL.md): Clean up and independently review uncommitted changes.
 - [/me-draft-change](skills/me-draft-change/SKILL.md): Implement a plan as uncommitted local changes.
 - [/me-draft-issue](skills/me-draft-issue/SKILL.md): Draft an evidence-backed Linear issue for review.
