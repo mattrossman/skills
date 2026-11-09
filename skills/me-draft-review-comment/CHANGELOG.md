@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-09
+
+### Support multiple findings
+
+Draft a separate comment and location for each requested finding.
+
+### Require a reviewed finding
+
+Draft comments for findings the user has already reviewed, so the user owns the review judgment.
+
 ## 2026-11-02
 
 ### Restore GitHub diff anchors
