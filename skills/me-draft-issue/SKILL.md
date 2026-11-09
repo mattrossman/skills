@@ -11,8 +11,8 @@ description: Draft a concise, evidence-backed issue for review before creating i
 
 ## Workflow
 
-1. Identify the problem and intended scope from the conversation, referenced code, issues and discussions. Read referenced sources needed to substantiate claims; do not require a separate issue or plan when the conversation provides the context.
-2. Save a new draft using the user's configured draft conventions, or draft in chat if requested. Include the title, body and proposed metadata. If a draft already exists, read it before making targeted edits; never overwrite unseen changes.
+1. Identify the problem and intended scope from the conversation, referenced code, issues and discussions. Read referenced sources needed to substantiate claims. Do not require a separate issue or plan when the conversation provides the context.
+2. Save a new draft using the user's configured draft conventions, or draft in chat if requested. Include the title, body and proposed metadata. If a draft already exists, read it before making targeted edits. Never overwrite unseen changes.
 3. Show the draft for review. Do not create the issue until explicitly approved. Re-read the saved draft and confirm metadata before creating it.
 4. Before acting on an existing issue, read its current state. Apply follow-up edits narrowly.
 5. For GitHub attachments, check `gh issue create --help` or `gh issue edit --help` for `--attach`. Preserve placement, verify the published body and report upload failures.

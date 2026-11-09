@@ -9,7 +9,7 @@ Choose the memory file whose scope matches the request. Follow the user's config
 
 - Repository-specific: use a memory file in that repository, not home-directory memory.
 - Shared across projects: use `~/.agents/AGENTS.md`.
-- Local or personal: use `~/.agents/AGENTS.local.md`; never stage or commit it.
+- Local or personal: use `~/.agents/AGENTS.local.md`. Never stage or commit it.
 
 Ask if the intended scope or configured location is unclear.
 
@@ -18,6 +18,6 @@ Before writing to a repository, check whether the target is tracked or ignored. 
 ## Workflow
 
 1. Identify the scope and target file. Check existing applicable memory and recent changes first. If the requested behavior is already recorded, report where and make no duplicate change.
-2. Read the target file. Add only the minimum instruction needed to change behavior; omit rules already covered and speculative extras. Use a short bullet under an existing heading where one fits.
+2. Read the target file. Add only the minimum instruction needed to change behavior. Omit rules already covered and speculative extras. Use a short bullet under an existing heading where one fits.
 3. Keep rules reusable and avoid disclosing private work context. If an example helps, generalize it rather than copying details from the conversation.
 4. Show the added text in the reply. Commit only when explicitly requested, and follow the user's configured Git workflow. Never stage or commit local-only memory.
