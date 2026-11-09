@@ -2,6 +2,10 @@
 
 A collection of [agent skills](https://agentskills.io/home) I use to speed up common workflows and improve the output of agents.
 
+My workflow revolves around writing drafts that I can directly or indirectly refine before sharing with other humans. Mostly this means using Obsidian to organize drafts as documents in daily folders, but I also use surfaces like Linear documents or draft PRs to iterate depending on where it's more ergonimic to review. One of my main goals is reducing human-facing noise.
+
+In addition to the work itself, I also use skills for self-improvement to various layers "guidance" like local or shared memory files and skills.
+
 - [/me-catchup](skills/me-catchup/SKILL.md): Recap where a session left off using current work state.
 - [/me-cleanup-code](skills/me-cleanup-code/SKILL.md): Clean up and independently review uncommitted changes.
 - [/me-draft-change](skills/me-draft-change/SKILL.md): Implement a plan as uncommitted local changes.
