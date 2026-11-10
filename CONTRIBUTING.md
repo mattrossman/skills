@@ -2,7 +2,7 @@
 
 ## Maintaining skills
 
-Install the project tools with `mise install`, then run `mise run lint` after changing Markdown. The lint checks prose for semicolons.
+Install the project tools with `mise install`, then run `mise run lint` after changing Markdown. Lint uses Vale, configured in [`.vale.ini`](.vale.ini), with prose rules in [`.vale/styles/Skills/`](.vale/styles/Skills/).
 
 Each skill lives in `skills/<name>/`:
 
