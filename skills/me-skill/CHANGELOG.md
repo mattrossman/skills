@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-09
+
+### Apply portability before drafting
+
+Check the destination conventions before drafting, including the shared repository when the destination is unclear. Default to portable instructions so private context does not become part of a reusable skill.
+
 ## 2026-11-04
 
 ### Preserve working details when migrating
