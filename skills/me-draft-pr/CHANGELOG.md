@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-10
+
+### Consolidate PR writing guidance
+
+Keep PR body conventions in the drafting skill so agents use one source for formatting and evidence. GitHub pull request and issue URLs remain inline and unlabelled so GitHub can render its short references.
+
+### Describe the change without commands
+
+Make the present-tense instruction explicit so the opening describes the PR instead of asking the reviewer to perform the change.
+
 ## 2026-11-06
 
 ### Explain what changed

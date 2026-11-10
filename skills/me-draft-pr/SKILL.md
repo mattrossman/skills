@@ -21,8 +21,11 @@ description: Draft a pull request title and description from the diff and suppor
 ## Writing
 
 - Follow the repository's title conventions and templates. Prefer a short description of the problem and resulting behavior.
-- Start with the change in behavior or workflow, using an active verb and present tense. Explain what was different before and what happens now when needed to make the change clear. Do not just describe the resulting code or list its capabilities.
-- Include what a reviewer cannot easily infer from the diff, such as motivation, tradeoffs and verification backed by accessible evidence.
+- Start with the change in behavior or workflow. Use present tense to describe what the PR does, not an imperative instruction. For example, “Adds a check” rather than “Add a check.” Explain what was different before and what happens now when needed to make the change clear. Do not just describe the resulting code or list its capabilities.
 - Use headings, bullets or a small diagram only when they help a reviewer understand or compare changes. Include screenshots for visual changes when available.
-- Link claims to evidence and pin code links to a revision. Do not claim verification that has not happened.
+- Link evidence inline with the relevant claim instead of collecting it in a References section. Write GitHub pull request and issue URLs directly in the sentence or after a short label, so GitHub can render its short reference. Do not duplicate a Linear issue link when a closing or reference keyword already links it. Pin code links to a revision.
+- Prefer one short paragraph for a small change. Use bullets for independently scannable items and include output snippets for terminal or UI changes.
+- Include what a reviewer cannot get from the diff, such as where a change comes from, why it matters, and what was verified outside CI. Link verification evidence rather than asserting results. Omit specific numbers unless they affect a decision.
+- When including multiple screenshots, arrange them in a labeled Markdown grid, with no more than three columns.
+- Do not claim verification that has not happened.
 - Describe the final change rather than the drafting history.
