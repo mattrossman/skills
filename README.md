@@ -34,6 +34,7 @@ In addition to the work itself, I also use skills for self-improvement to variou
 
 - [/me-dry-run](skills/me-dry-run/SKILL.md): See how an agent approaches a request before tuning its skills, instructions or tools.
 - [/me-remember](skills/me-remember/SKILL.md): Save knowledge to agent memory in the right scope.
+- [/me-self-correct](skills/me-self-correct/SKILL.md): Diagnose an agent mistake and propose a guidance correction.
 - [/me-skill](skills/me-skill/SKILL.md): Create or improve a reusable skill.
 
 ## Install
