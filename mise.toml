@@ -1,0 +1,9 @@
+[tools]
+vale = "latest"
+
+[settings]
+lockfile = true
+
+[tasks.lint]
+description = "Lint Markdown prose"
+run = "vale ."

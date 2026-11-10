@@ -2,6 +2,8 @@
 
 Before changing skills, read CONTRIBUTING.md.
 
+After changing Markdown, run `mise run lint` and fix any violations.
+
 Use GitHub Issues in mattrossman/skills to track work on this repository.
 
 Commit directly on the default branch in this repository unless the user explicitly requests a feature branch.

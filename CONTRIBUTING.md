@@ -2,6 +2,8 @@
 
 ## Maintaining skills
 
+Install the project tools with `mise install`, then run `mise run lint` after changing Markdown. The lint checks prose for semicolons.
+
 Each skill lives in `skills/<name>/`:
 
 ```text
@@ -19,7 +21,7 @@ CHANGELOG.md       # add when the skill first changes substantively
   ### <change>     # what changed, why, and behavior to preserve
 ```
 
-Use headings that describe their contents: `Workflow` for ordered steps, `Rules` for constraints, or a specific topic such as `Comments`. The diagram shows useful sections, not a required template; omit sections a skill does not need. Headings organize instructions rather than enforcing them.
+Use headings that describe their contents: `Workflow` for ordered steps, `Rules` for constraints, or a specific topic such as `Comments`. The diagram shows useful sections, not a required template. Omit sections a skill does not need. Headings organize instructions rather than enforcing them.
 
 Before editing a skill, read its changelog if present and check that the new instructions still address the recorded problems. Create a changelog for the first substantive change. An initial creation entry is unnecessary. Correct old entries with a new entry.
 
