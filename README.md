@@ -27,6 +27,7 @@ In addition to the work itself, I also use skills for self-improvement to variou
 - [/me-catchup](skills/me-catchup/SKILL.md): Recap where a session left off using current work state.
 - [/me-obsidian](skills/me-obsidian/SKILL.md): Read, write, and link notes using your Obsidian vault conventions.
 - [/me-sync](skills/me-sync/SKILL.md): Sync the current repository while preserving local work.
+- [/me-unblock](skills/me-unblock/SKILL.md): Find and take the next concrete action on a stalled task.
 
 ### Agent guidance
 
