@@ -13,7 +13,7 @@ Preserve concrete details needed for the workflow, or verify that the user's con
 
 ## Create
 
-1. Choose the skill's scope and destination from the user's request and existing conventions. Before drafting, read the destination's contribution instructions. If the destination is unclear, check the user's shared skills repository and draft portable instructions by default. Keep personal context in the user's configuration or private notes. Name the concrete action and match the frontmatter name to the directory.
+1. Choose the skill's scope and destination from the user's request and existing conventions. Before proposing a name, read the destination's contribution instructions and inspect existing skill names. Prefix the user's personal skills with `me-`. If the destination is unclear, check the user's shared skills repository and draft portable instructions by default. Keep personal context in the user's configuration or private notes. Name the concrete action and match the frontmatter name to the directory.
 2. Write a concise description that explains when the skill applies. Avoid redundant invocation instructions.
 3. Draft the workflow and its dependencies. Describe the behavior needed, include correctness-critical instructions, and provide fallbacks for optional skills or tools.
 4. Show the proposed name, description, and full body before creating the skill. Follow the destination's changelog convention. If there isn't one, create a changelog when the skill first changes substantively.

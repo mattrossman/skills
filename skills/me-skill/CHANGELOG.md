@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-11
+
+### Check naming before proposing a skill
+
+Inspect destination names before proposing a skill name and use the `me-` prefix for personal skills. This keeps draft names consistent with the skills they will join.
+
 ## 2026-11-09
 
 ### Apply portability before drafting
