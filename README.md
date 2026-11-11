@@ -17,6 +17,7 @@ In addition to the work itself, I also use skills for self-improvement to variou
 
 ### Review and refine
 
+- [/me-review-pr](skills/me-review-pr/SKILL.md): Review a PR and assess existing reviewer feedback.
 - [/me-cleanup-code](skills/me-cleanup-code/SKILL.md): Clean up and independently review uncommitted changes.
 - [/me-second-opinion](skills/me-second-opinion/SKILL.md): Get an independent assessment from another coding agent.
 - [/me-trim-comments](skills/me-trim-comments/SKILL.md): Trim comments, test names, and documentation in unstaged changes.
