@@ -2,6 +2,14 @@
 
 ## 2026-11-12
 
+### Rewrite the whole outcome when updating
+
+Replace the complete workstream bullet from current facts and read the result before saving. Phrase-level status updates can retain obsolete details and turn a short outcome into an activity log. Keep supporting evidence reachable through linked material.
+
+### Record results rather than preparation
+
+Require a concrete result before adding an outcome. Keep preliminary research and local drafts in work notes or the pending queue, while preserving meaningful results from unfinished tasks.
+
 ### Keep daily outcomes skimmable
 
 Rewrite updates around the current result and remaining work, with supporting detail in linked material. Preserve useful links when shortening or combining outcomes.
