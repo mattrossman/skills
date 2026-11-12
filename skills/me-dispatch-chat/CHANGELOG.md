@@ -1,5 +1,9 @@
 ## 2026-11-12
 
+### Keep dispatched results easy to act on
+
+Specify a short initial answer in handoff prompts. Preserve research depth while presenting the user’s decision, next step, and essential evidence first.
+
 ### Carry optional capture and queue history preferences
 
 Pass queue history conventions and enabled outcome preferences into dispatched chats. A linked queue no longer implies daily-note capture.
