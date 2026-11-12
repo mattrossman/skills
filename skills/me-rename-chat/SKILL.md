@@ -11,6 +11,10 @@ description: Give chats recognizable titles when starting work, after linked con
 4. Revisit the title after reading context that reveals the subject and before starting work that changes the subject or category.
 5. Before the final reply, check whether the title still describes the actual work and distinguishes it from other chats using the same source or workflow. Rename it if needed.
 
+## Completed chats
+
+Keep the leading ✅ when renaming a completed chat. If the user resumes work, remove it and name the active task. Leave the chat unpinned unless asked to pin it.
+
 ## Title format
 
 Use `<emoji> <Category> - <subject> [- <qualifier>]`.

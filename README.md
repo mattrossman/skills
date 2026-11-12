@@ -27,6 +27,7 @@ In addition to the work itself, I also use skills for self-improvement to variou
 ### Workflow
 
 - [/me-dispatch-chat](skills/me-dispatch-chat/SKILL.md): Start a separate chat with context in the right project.
+- [/me-finish-chat](skills/me-finish-chat/SKILL.md): Finish a chat, update linked follow-ups, and clean up its sidebar state.
 - [/me-catchup](skills/me-catchup/SKILL.md): Recap where a session left off using current work state.
 - [/me-rename-chat](skills/me-rename-chat/SKILL.md): Give chats recognizable titles and keep them current.
 - [/me-obsidian](skills/me-obsidian/SKILL.md): Read, write, and link notes using your Obsidian vault conventions.
