@@ -1,5 +1,11 @@
 ## 2026-11-12
 
+### Ground completion in the latest thread replies
+
+Read the source thread at the completion decision and identify who owns
+any remaining action. Avoid carrying an earlier pending state forward
+after the user has responded.
+
 ### Capture enabled outcomes independently of queue cleanup
 
 Record meaningful progress when outcome capture is enabled, including unfinished tasks without queue entries. Keep queue history governed by its supplied conventions so finishing a chat does not require daily notes.
