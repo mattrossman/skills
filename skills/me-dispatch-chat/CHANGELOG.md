@@ -1,5 +1,9 @@
 ## 2026-11-12
 
+### Carry optional capture and queue history preferences
+
+Pass queue history conventions and enabled outcome preferences into dispatched chats. A linked queue no longer implies daily-note capture.
+
 ### Make queue dispatch explicit
 
 Use `queue` to select the configured review queue. Bare invocation uses a clear task from the conversation or asks what to dispatch. This replaces the implicit queue default because the skill name does not suggest it.

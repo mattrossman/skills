@@ -6,6 +6,10 @@
 
 Rewrite updates around the current result and remaining work, with supporting detail in linked material. Preserve useful links when shortening or combining outcomes.
 
+### Keep outcomes and queues optional
+
+Describe daily outcomes for users who enable them and use supplied queue locations and history rules. Preserve source checks, deduplication, and history without making note access enable extra workflows.
+
 ## 2026-11-04
 
 ### Make review follow-ups actionable

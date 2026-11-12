@@ -26,8 +26,8 @@ Group links about the same task into one chat. Check for existing chats about ea
 
 ## Chats from a queue
 
-Pass in the queue location, entry source link, next action, and outcome that completes the task. Keep the chat pending while the user has anything left to do.
+Pass in the queue location, entry source link, next action, completion outcome, and queue history conventions. Include any enabled outcome-capture preferences. Do not enable daily notes or Outcomes merely because the task came from a queue. Keep the chat pending while the user has anything left to do.
 
-Include these finish instructions in the opening prompt. When the user says “wrap up” or otherwise finishes the task, check the linked entry. Record its outcome in today’s daily note before removing it. Keep any remaining user action in the queue. Mark a completed chat with a leading ✅ and unpin it. Keep it pinned while the result awaits the user’s review.
+Include these finish instructions in the opening prompt. When the user says “wrap up” or otherwise finishes the task, check the linked entry. Before removing it, preserve its outcome and source link according to the supplied queue history conventions. Keep any remaining user action in the queue. Mark a completed chat with a leading ✅ and unpin it. Keep it pinned while the result awaits the user’s review.
 
 If the app cannot create, start, link, or pin a chat, say which part is unavailable and offer the closest supported handoff. Do not silently switch agents or claim the task was started.
