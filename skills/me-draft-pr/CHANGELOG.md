@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-11-12
+
+### Check readability before review
+
+Keep verification concise and explain unfamiliar bugs or limitations in the text so readers can understand the point before opening its evidence links.
+
+### Separate distinct changes
+
+Organize PR descriptions by change rather than total size so separate changes are easy to see.
+
+### Mark pending attachments before publication
+
+Check agreed evidence and attachments before approval or publication. Keep their intended placement visible with TODO placeholders, including when the author will supply them.
+
+### Distinguish changes from reassurance
+
+Check behavior claims against the diff. Keep relevant new behavior and mention unchanged behavior only when it helps explain the change or a plausible regression concern.
+
+### Cite existing patterns
+
+Name the specific field or function and cite its pinned definition when an existing pattern helps explain a design choice.
+
+### Resolve evidence TODOs
+
+Resolve evidence TODOs as verification arrives so the published PR stays current with the work.
+
+### Show what remains to finish a draft
+
+Distinguish missing evidence from prerequisite actions using bracketed TODO placeholders and quoted TODO Before review instructions.
+
 ## 2026-11-10
 
 ### Consolidate PR writing guidance
