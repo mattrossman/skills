@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-12
+
+### Make verification concrete
+
+Make verification concrete so the user does not have to design the test plan.
+
 ## 2026-10-29
 
 ### Accept conversational context
