@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-12
+
+### Move draft iteration to shared writing guidance
+
+Moved saved-draft correction behavior to `me-simplify-writing`, which covers copy across formats. Removed the issue-specific duplicate while preserving issue creation approval.
+
+### Keep saved drafts current during review
+
+Apply corrections to the saved draft during iteration so the review artifact stays current. Keep issue creation behind explicit approval.
+
 ## 2026-11-04
 
 ### Preserve GitHub attachments when publishing

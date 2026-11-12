@@ -1,6 +1,6 @@
 ---
 name: me-simplify-writing
-description: Write or revise prose in clear, simple English. Use when asked to simplify writing or apply simplified technical English.
+description: Draft or revise copy in clear, simple English, including PR descriptions, issues, messages and documents. Use for copy drafting, draft corrections, or simplifying writing.
 ---
 
 # Simplify writing
@@ -23,8 +23,8 @@ Use [ASD-STE100](https://www.asd-ste100.org/about.html) as a guide, with flexibl
 
 ## Editing
 
-Read the current draft before editing. Preserve its meaning.
+Read the current draft before editing. Preserve its meaning and the requested format and destination.
 
-Preserve the requested format and destination. Show the revised text for review. Do not publish it without authorization.
+When iterating on saved copy, apply the user's corrections to the saved draft as you go, including wording, scope and metadata. Show the updated draft for review. Keep publication behind any required approval.
 
 
