@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-12
+
+### Keep daily outcomes skimmable
+
+Rewrite updates around the current result and remaining work, with supporting detail in linked material. Preserve useful links when shortening or combining outcomes.
+
 ## 2026-11-04
 
 ### Make review follow-ups actionable

@@ -24,6 +24,16 @@ description: Read and write Obsidian notes, organize daily work and drafts, and 
 - Share one sequence across numbered files and folders for the day. Choose one more than the highest existing numeric prefix, starting at `01`. Never renumber existing items or overwrite an existing item.
 - Keep plain notes without an H1 title. Format issue and PR drafts as they will render.
 
+## Daily outcomes
+
+Use this format when the user asks for outcomes or their guidance enables outcome capture. Otherwise, preserve their existing note format.
+
+- Keep meaningful progress under `## Outcomes` in the daily note. Work can be worth recording before the task is complete.
+- Use one bullet per workstream, usually one or two short sentences covering the result and any meaningful remaining step. When updating it, rewrite the current outcome rather than accumulating the work history. Keep separate results distinct.
+- Describe what the user did and what changed or was learned. Include remaining work when it helps explain the progress. A useful check-in can record learning or alignment without claiming a decision or measurable impact.
+- Link to the source or a detailed work note. Keep implementation history, commands, test results, and review commentary in that linked material. Before saving, check that each outcome can be understood at a glance and retains a useful source or work-note link when available, including after shortening or combining entries. Use observed results or the user’s clear report. Preserve uncertainty and the user’s contribution. Do not invent impact.
+- Read the current note before editing. Preserve unrelated content and earlier days. Avoid duplicates and keep useful evidence when combining entries. Keep detailed notes, task tracking, queue housekeeping, and verification commentary outside Outcomes.
+
 ## Review queue
 
 - Keep pending reviews and follow-ups in `Review Queue.md` at the vault root. This is one mutable queue across days and weeks. Dated notes preserve history.
