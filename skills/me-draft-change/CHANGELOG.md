@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-13
+
+### Update issue status when implementation starts
+
+Move linked issues into active work when implementation is explicitly requested, so the tracker reflects work underway. Keep investigation and drafting separate from implementation.
+
 ## 2026-11-12
 
 ### Make verification concrete
