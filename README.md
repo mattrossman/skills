@@ -21,6 +21,7 @@ In addition to the work itself, I also use skills for self-improvement to variou
 - [/me-explain-why](skills/me-explain-why/SKILL.md): Explain the purpose and rationale behind technical changes.
 - [/me-cleanup-code](skills/me-cleanup-code/SKILL.md): Clean up and independently review uncommitted changes.
 - [/me-second-opinion](skills/me-second-opinion/SKILL.md): Get an independent assessment from another coding agent.
+- [/me-workshop-names](skills/me-workshop-names/SKILL.md): Brainstorm and review names with a fresh agent.
 - [/me-trim-comments](skills/me-trim-comments/SKILL.md): Trim comments, test names, and documentation in unstaged changes.
 - [/me-simplify-writing](skills/me-simplify-writing/SKILL.md): Draft or revise copy in clear, simple English and keep saved drafts current.
 - [/me-prepare-commits](skills/me-prepare-commits/SKILL.md): Prepare local changes for commits and push them after approval.
