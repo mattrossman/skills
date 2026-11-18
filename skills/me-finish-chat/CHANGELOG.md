@@ -1,3 +1,9 @@
+## 2026-11-17
+
+### Clear unread state when finishing
+
+Mark completed chats read when supported so completion does not leave a misleading attention indicator. Preserve unread indicators for results awaiting review.
+
 ## 2026-11-12
 
 ### Ground completion in the latest thread replies
