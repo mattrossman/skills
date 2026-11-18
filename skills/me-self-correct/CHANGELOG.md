@@ -1,3 +1,9 @@
+## 2026-11-18
+
+### Use the memory placement workflow
+
+Use the memory skill when a correction belongs in memory so its scope and privacy checks have one home. Stop if that required skill is unavailable.
+
 ## 2026-11-11
 
 ### Default to preventing recurrence

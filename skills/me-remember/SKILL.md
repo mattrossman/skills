@@ -1,6 +1,6 @@
 ---
 name: me-remember
-description: Save knowledge to agent memory in the right scope. Use when asked to remember something, update agent instructions, or decide where a rule belongs.
+description: Choose the right scope and destination for agent memory. Use when saving knowledge or deciding where a memory instruction belongs.
 ---
 
 ## Scope

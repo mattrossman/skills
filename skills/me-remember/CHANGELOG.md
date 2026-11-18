@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-18
+
+### Clarify the memory workflow
+
+Describe the skill as the source for choosing memory scope and destination, including when another workflow needs that decision.
+
 ## 2026-11-04
 
 ### Preserve memory locations
