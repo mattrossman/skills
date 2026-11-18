@@ -1,3 +1,9 @@
+## 2026-11-16
+
+### Reintroduce context in dispatched reports
+
+Require handoffs to request a context-first, glanceable report for users who did not write the dispatch prompt. Preserve thorough research while moving detailed tracking and evidence behind the initial recommendation.
+
 ## 2026-11-12
 
 ### Keep dispatched results easy to act on
