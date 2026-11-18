@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-16
+
+### Verify the changed behavior
+
+Tie verification claims to relevant observations instead of treating passing tests or eval checks as proof of any change.
+
+### Link screenshot labels to sources
+
+Link screenshot labels and grid headings to their source views so reviewers can open the underlying evidence directly.
+
 ## 2026-11-12
 
 ### Check readability before review

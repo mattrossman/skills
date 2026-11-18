@@ -27,6 +27,6 @@ description: Draft a pull request title and description from the diff and suppor
 - Group the description by change. Use one short paragraph for a single change and separate paragraphs or bullets for distinct changes, even in a small PR. Include output snippets for terminal or UI changes.
 - Include what a reviewer cannot get from the diff, such as where a change comes from, why it matters, and what was verified outside CI. Link verification evidence rather than asserting results. Omit specific numbers unless they affect a decision.
 - When an existing pattern helps justify a change, name the specific field or function and link to its definition at a pinned revision.
-- When including multiple screenshots, arrange them in a labeled Markdown grid, with no more than three columns.
-- Do not claim verification that has not happened.
+- Give each screenshot a descriptive label linked to the source view it captures when that URL is available. For multiple screenshots, use those linked labels as Markdown grid headings, with no more than three columns.
+- Describe the observed result that demonstrates the changed behavior. Mention passing tests or eval checks only when they verify that behavior. Do not claim verification that has not happened.
 - Draft the intended final PR. Mark missing evidence with `[TODO ...]`. When producing it requires further action, add a short blockquote labeled `TODO Before review` with the concrete next steps. These markers are draft-only and should be resolved before review. Do not claim verification before it happens.
