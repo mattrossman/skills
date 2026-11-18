@@ -1,6 +1,6 @@
 ---
 name: me-dispatch-chat
-description: Start chats from links, requests, or a configured review queue. Prepare each task so the user can take the next step.
+description: Use whenever the user asks to start or dispatch a separate chat or session, including a follow-up investigation. Prepare each task so the user can take the next step.
 ---
 
 ## Scope

@@ -1,3 +1,9 @@
+## 2026-11-18
+
+### Recognize follow-up dispatches
+
+Make the dispatch workflow explicit for separate follow-up investigations so their chats are pinned and handed back for review.
+
 ## 2026-11-16
 
 ### Reintroduce context in dispatched reports
