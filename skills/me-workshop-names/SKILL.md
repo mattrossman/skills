@@ -7,6 +7,8 @@ Keep the review read-only unless changes are separately authorized. If a fresh a
 
 ## Workflow
 
+Before ranking, check each candidate at its actual call sites against the thing’s type, shape, and role. Prefer names that communicate what it is over names that only describe when it is used. Check for misleading readings, such as a configuration object sounding like a boolean switch.
+
 1. Gather the thing’s meaning, behavior or data shape, relevant paths, callers, naming constraints, and immediate dependencies or services. Ask only for missing facts that could change the choice.
 2. Give this factual brief to a fresh agent without inherited conversation. Withhold the incumbent name, previous candidates, rationales, and parent conversation. Preserve integration facts even when their terminology overlaps with a candidate.
 3. Ask the agent to inspect nearby vocabulary and conventions, plus direct integrations’ terminology, concepts, data shapes, and reserved or API field names. Use source or authoritative docs. Rank 3–5 strong names, usually three, with a one-sentence strength and tradeoff each, then recommend one. Prefer minimal, clear, readable, unambiguous, elegant names that work at actual call sites. Distinguish evidence from taste and acknowledge close calls. Do not pad the list with weak synonyms. Report missing evidence or names exposed in source rather than hiding relevant facts.
