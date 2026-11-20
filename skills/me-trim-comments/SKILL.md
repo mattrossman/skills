@@ -22,6 +22,8 @@ Trim or remove comments that are:
 - restating a value that already lives in code or config, such as a hotkey, folder name, plugin list, version, or default
 - likely to go stale or be misleading in the future
 
+If a comment excuses a workaround, check whether the code needs fixing. Flag a follow-up if the fix is outside scope. Keep any explanation a maintainer needs until the workaround is removed.
+
 If you can say it in one sentence, do it.
 
 If code makes a claim about external behavior, demonstrate proof with a docs link or code permalink.

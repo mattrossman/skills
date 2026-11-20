@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-20
+
+### Check workarounds
+
+Check whether code needs fixing when a comment excuses a workaround. Flag out-of-scope fixes and preserve explanations maintainers need until the workaround is removed.
+
 ## 2026-10-19
 
 ### Keep one source of truth
