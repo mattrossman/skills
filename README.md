@@ -36,6 +36,10 @@ In addition to the work itself, I also use skills for self-improvement to variou
 - [/me-sync](skills/me-sync/SKILL.md): Sync the current repository while preserving local work.
 - [/me-unblock](skills/me-unblock/SKILL.md): Find and take the next concrete action on a stalled task.
 
+### Integrations
+
+- [/me-twitter](skills/me-twitter/SKILL.md): Read and search public X/Twitter posts, threads, and profiles.
+
 ### Agent guidance
 
 - [/me-dry-run](skills/me-dry-run/SKILL.md): See how an agent approaches a request before tuning its skills, instructions or tools.
